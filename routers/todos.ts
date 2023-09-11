@@ -2,7 +2,7 @@ import { Router } from "express";
 import CreateReminderDto from "../dtos/CreateReminderDto";
 import Todo from "../models/todo";
 
-const router = Router(); //returns a routerss
+const router = Router(); //returns a routersss
 
 router.get("/", (req, res) => {
   Todo.find()
